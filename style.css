@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins"; */
+}
+.container{
+ 
+}
+
+
+/* part-1 */
+section aria-label[type="navbar"]{
+    
+    
+}
+
+body > div.container > section:nth-child(1) > nav.navbar{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+
+
+nav .navbar{
+    /* background-color: blueviolet;
+    height: 70px;
+    width: 100%; */
+    /* display: inline; */
+    /* justify-content: space-between; */
+    
+}
+nav .navbar div{
+    /* width: 2%; */
+}
+nav .navbar div img.logo{
+    
+}
+body > div.container > section:nth-child(1) > nav > div:nth-child(1) > img{
+    width: 90px;
+    height: 30px;
+}
+
+
+
+/* part-2 */
+.line{
+    position: relative;
+    top: -20px;
+    height: 60px;
+    width: 2px;
+    background-color: white;
+    margin-left: -250px;
+}
+.grow-list{
+    width: 40%;
+    margin-left: -350px;
+    /* text-align: center; */
+    align-items: center;
+}
+.grow-list ul.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.grow-list ul.list li.list-item{
+    color: white;
+    text-align: center;
+}
+
+
+
+/* part-3 */
+.button-small{
+    padding: 7px 30px;
+    background-color: #bd29de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -100px;
+}
+
+
+
+
+
+
+div.container  section:nth-child(2){
+    height: 100vh;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size:  cover;
+}
+.hero{
+    /* background-color: aquamarine; */
+    height: 70%;
+}
+.hero .hero-heading{
+    /* background-color: chartreuse; */
+    font-size: 75px;
+    color: white;
+    width: 60%;
+    position: relative;
+    left: 27%;
+    top: 25%;
+    font-family: 'Poppins';
+}
+
+.hero-description{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    font-family: 'Poppins';
+}
+
+.button-large{
+    padding: 1% 4%;
+    background-color: #e60be6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
